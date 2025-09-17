@@ -4,7 +4,7 @@ import axios from 'axios'
 const Produtos = () => {
      const [pizzas, setPizzas] = useState([])
     // Consumir rota com lista de produtos
-     axios.get("http://viacep.com.br/ws/01010000/json")
+     axios.get("https://react.dev/link/react-devtools")
      .then(response=>{
         console.log(response.data)
      })
